@@ -1,0 +1,35 @@
+/* You can add global styles to this file, and also import other style files */
+@import '../node_modules/@syncfusion/ej2-base/styles/material.css';
+@import '../node_modules/@syncfusion/ej2-buttons/styles/material.css';
+@import '../node_modules/@syncfusion/ej2-popups/styles/material.css';
+@import '../node_modules/@syncfusion/ej2-splitbuttons/styles/material.css';
+@import '../node_modules/@syncfusion/ej2-inputs/styles/material.css';
+
+#wrapper{
+    text-align: center;
+}
+.e-container .e-palette .e-custom-tile {
+    border: 0;
+    color: #fff;
+    line-height: 24px;
+    font-size: 16px;
+    height: 24px;
+    width: 35px;
+    margin-top: 2px;
+    margin-left: 10px;
+  }
+  
+  .e-container .e-custom-palette.e-palette-group {
+    height: 182px;
+  }
+  .e-container .e-palette .e-custom-tile.e-selected::before {
+    content: '\e933';
+  }
+  
+  .e-container .e-palette .e-custom-tile.e-selected {
+    outline: none;
+  }
+  #preview {
+    height: 50px; width: 100px; margin: auto;
+background-color: #ba68c8;
+  }

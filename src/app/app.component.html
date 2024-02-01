@@ -1,0 +1,9 @@
+<div id="preview"></div>
+<div id="wrapper">
+  <h4>Choose a color</h4>
+  <input ejs-colorpicker id="color-picker" type="color" value="035a"
+  mode="Palette" inline="true" [modeSwitcher]="false" [showButtons]="false"
+  noColor="true" [presetColors]="customColors" [columns]="4"
+  (beforeTileRender)="tileRender($event)" (change)="onChange($event)"/>
+  <!--<input ejs-colorpicker cssClass="e-hide-value" disabled="true"/>-->
+</div>
